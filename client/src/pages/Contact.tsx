@@ -132,7 +132,7 @@ const Contact = () => {
               Get In <span className="text-[#737520
 ]">Touch</span>
             </h1>
-            <p className="text-base sm:text-lg text-white/90 max-w-2xl leading-relaxed font-light">
+            <p className="text-base sm:text-lg text-white/90 max-w-2xl leading-relaxed font-heavy">
               Have a project in mind? Let's discuss how we can help you achieve your goals.
             </p>
           </motion.div>

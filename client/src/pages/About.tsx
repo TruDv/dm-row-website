@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import { FaCheckCircle, FaShieldAlt, FaUsers, FaHandshake, FaAward, FaGlobeAfrica, FaChartLine, FaQuoteLeft } from 'react-icons/fa';
 
 const About = () => {
@@ -35,7 +36,7 @@ const About = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center mix-blend-overlay"
             style={{
-              backgroundImage: `url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1920&q=80')`,
+              backgroundImage: `url('images/marine.jpg')`,
             }}
           ></div>
           {/* Additional subtle pattern overlay */}
@@ -55,16 +56,15 @@ const About = () => {
           >
             {/* Breadcrumb */}
             <div className="flex items-center gap-2 text-white/80 text-sm mb-4">
-              <span className="hover:text-white cursor-pointer transition-colors">Home</span>
+              <Link to="/" className="hover:text-white transition-colors">Home</Link>
               <span className="text-white/40">/</span>
               <span className="text-white font-medium">About</span>
             </div>
             
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-3 tracking-tight">
-              About <span className="text-[#737520
-]">DM-ROW</span>
+              About <span className="text-[#fbfefe]">DM-ROW</span>
             </h1>
-            <p className="text-base sm:text-lg text-white/90 max-w-2xl leading-relaxed font-light">
+            <p className="text-base sm:text-lg text-white/90 max-w-2xl leading-relaxed font-heavy">
               We are a 100% Nigerian owned company dedicated to delivering excellence 
               in procurement, engineering, and marine services across the oil and gas industry.
             </p>
@@ -321,12 +321,16 @@ const About = () => {
               Let's discuss how our expertise can drive your projects to success.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <button className="bg-white text-[#737520] font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 text-sm">
-                Get Started
-              </button>
-              <button className="border-2 border-white text-white font-semibold px-8 py-3 rounded-lg hover:bg-white/10 transition-all duration-300 text-sm">
-                Contact Us
-              </button>
+              <Link to="/contact">
+                <button className="bg-white text-[#737520] font-semibold px-8 py-3 rounded-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 text-sm">
+                  Contact Us
+                </button>
+              </Link>
+              <Link to="/services">
+                <button className="border-2 border-white text-white font-semibold px-8 py-3 rounded-lg hover:bg-white/10 transition-all duration-300 text-sm">
+                  Our Services
+                </button>
+              </Link>
             </div>
           </motion.div>
         </div>

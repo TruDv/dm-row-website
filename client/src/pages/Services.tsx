@@ -124,9 +124,9 @@ const Services = () => {
               Our <span className="text-[#737520
 ]">Services</span>
             </h1>
-            <p className="text-base sm:text-lg text-white/90 max-w-2xl leading-relaxed font-light">
+            <p className="text-base sm:text-lg text-white/90 max-w-2xl leading-relaxed font-heavy">
               We provide integrated technical solutions across procurement, engineering, 
-              and marine services to the oil and gas industry.
+              and marine industry.
             </p>
           </motion.div>
         </div>
