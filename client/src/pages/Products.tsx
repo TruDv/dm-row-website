@@ -13,7 +13,7 @@ const productsData = [
     name: 'Industrial Pipes',
     category: 'Industrial',
     //icon: <FaIndustry />,//
-    image: 'public/images/products/pipe.jpg',
+    image: '/images/products/pipe.jpg',
     description: 'High-quality industrial pipes for oil and gas applications, designed for durability and performance.',
     specifications: [
       { label: 'Material', value: 'Carbon Steel, Stainless Steel' },
@@ -55,7 +55,7 @@ const productsData = [
     name: 'Flanges, Bolts & Pipefittings',
     category: 'Hardware',
     //icon: <FaTools />,//
-    image: 'public/images/products/flange.jpg',
+    image: '/images/products/flange.jpg',
     description: 'Complete range of flanges, bolts, and pipefittings for all industrial piping requirements.',
     specifications: [
       { label: 'Material', value: 'Carbon Steel, Stainless Steel, Alloy Steel' },
@@ -75,7 +75,7 @@ const productsData = [
     name: 'Electric Transformers',
     category: 'Electrical',
     //icon: <FaLightbulb />,//
-    image: 'public/images/products/transformer.jpg',
+    image: '/images/products/transformer.jpg',
     description: 'High-performance transformers for power distribution and industrial applications.',
     specifications: [
       { label: 'Power Rating', value: '100 KVA to 100 MVA' },
@@ -95,7 +95,7 @@ const productsData = [
     name: 'Welding Equipment & Consumables',
     category: 'Equipment',
     //icon: <FaWrench />,
-    image: 'public/images/products/welding.jpg',
+    image: '/images/products/welding.jpg',
     description: 'Complete welding solutions including equipment and consumables for all industrial needs.',
     specifications: [
       { label: 'Type', value: 'MIG, TIG, Stick, Submerged Arc' },
@@ -115,7 +115,7 @@ const productsData = [
     name: 'Health & Safety Equipment',
     category: 'Safety',
     //icon: <FaShieldAlt />,
-    image: 'public/images/products/safety.png',
+    image: '/images/products/safety.png',
     description: 'Comprehensive range of health and safety equipment for workplace protection.',
     specifications: [
       { label: 'Type', value: 'PPE, Fire Safety, First Aid' },
@@ -134,7 +134,7 @@ const productsData = [
     name: 'Marine Lights',
     category: 'Marine',
     //icon: <FaFireExtinguisher />,
-    image: 'public/images/products/marine.jpg',
+    image: '/images/products/marine.jpg',
     description: 'High-quality marine lighting solutions for vessels and offshore installations.',
     specifications: [
       { label: 'Type', value: 'LED, Halogen, Explosion Proof' },
@@ -153,7 +153,7 @@ const productsData = [
     name: 'Gratings, Plates & Bars',
     category: 'Structural',
     
-    image: 'public/images/products/grating.jpg',
+    image: '/images/products/grating.jpg',
     description: 'Industrial gratings, plates, and bars for structural applications across industries.',
     specifications: [
       { label: 'Material', value: 'Carbon Steel, Stainless Steel, Aluminum' },
