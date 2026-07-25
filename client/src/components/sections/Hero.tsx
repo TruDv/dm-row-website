@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
 
 const Hero = () => {
@@ -9,7 +10,7 @@ const Hero = () => {
     {
       image: '/images/hero/engineering.jpg',
       title: 'Engineering Solutions',
-      subtitle: 'For Tomorrow\'s Challenges',
+      subtitle: "For Tomorrow's Challenges",
       description: 'Delivering quality procurement, engineering, and marine services to the oil and gas industry.',
       badge: '100% Nigerian Owned'
     },
@@ -126,13 +127,17 @@ const Hero = () => {
               transition={{ delay: 0.6 }}
               className="flex flex-wrap gap-4"
             >
-              <button className="bg-[#737520] text-white font-semibold px-8 py-4 rounded-lg hover:bg-[#5A5D1A] transition-all duration-300 transform hover:scale-105 flex items-center gap-2 group">
-                Get Started
-                <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
-              </button>
-              <button className="border-2 border-white text-white font-semibold px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300 transform hover:scale-105">
-                Our Services
-              </button>
+              <Link to="/contact">
+                <button className="bg-[#737520] text-white font-semibold px-8 py-4 rounded-lg hover:bg-[#5A5D1A] transition-all duration-300 transform hover:scale-105 flex items-center gap-2 group">
+                  Get Started
+                  <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
+                </button>
+              </Link>
+              <Link to="/services">
+                <button className="border-2 border-white text-white font-semibold px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300 transform hover:scale-105">
+                  Our Services
+                </button>
+              </Link>
             </motion.div>
           </motion.div>
         </AnimatePresence>
