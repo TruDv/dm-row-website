@@ -212,7 +212,7 @@ const Products = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center mix-blend-overlay"
             style={{
-              backgroundImage: "url('public/images/products/products.jpg')",
+              backgroundImage: "url('images/products/products.jpg')",
             }}
           ></div>
           <div className="absolute inset-0 opacity-30" style={{

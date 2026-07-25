@@ -18,7 +18,7 @@ const Services = () => {
         'Cost-Effective Solutions',
         'Timely Delivery & Logistics'
       ],
-      image: 'public/images/procurement.jpg'
+      image: '/images/procurement.jpg'
     },
     {
       id: 2,
@@ -32,7 +32,7 @@ const Services = () => {
         'Filtration System Installation',
         'Marine Equipment Maintenance'
       ],
-      image: 'public/images/marine.jpg'
+      image: '/images/marine.jpg'
     },
     {
       id: 3,
@@ -46,7 +46,7 @@ const Services = () => {
         'Electrical Installation',
         '24/7 Emergency Support'
       ],
-      image: 'public/images/engineering.jpg'
+      image: '/images/engineering.jpg'
     },
     {
     id: 4,
@@ -60,7 +60,7 @@ const Services = () => {
       'Project Management Advisory',
       'Workforce Development'
     ],
-    image: 'public/images/consultancy.jpg'
+    image: '/images/consultancy.jpg'
   }
 ];
 
@@ -97,7 +97,7 @@ const Services = () => {
           <div 
             className="absolute inset-0 bg-cover bg-center mix-blend-overlay"
             style={{
-              backgroundImage: `url('public/images/services.jpg')`,
+              backgroundImage: `url('images/services.jpg')`,
             }}
           ></div>
           <div className="absolute inset-0 opacity-10" style={{
