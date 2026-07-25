@@ -1,10 +1,9 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
 import { 
-  FaIndustry, FaBolt, FaTools, FaFireExtinguisher, 
-  FaLightbulb, FaWrench, FaShieldAlt, FaCogs,
-  FaTimes, FaArrowRight, FaCheckCircle, FaPhone,
-  FaEnvelope, FaWhatsapp
+
+  FaTimes, FaArrowRight, FaCheckCircle,
+  FaWhatsapp
 } from 'react-icons/fa';
 
 // Product Data
@@ -153,7 +152,7 @@ const productsData = [
     id: 8,
     name: 'Gratings, Plates & Bars',
     category: 'Structural',
-    icon: <FaCogs />,
+    
     image: 'public/images/products/grating.jpg',
     description: 'Industrial gratings, plates, and bars for structural applications across industries.',
     specifications: [
@@ -316,7 +315,7 @@ const Products = () => {
                 {/* Product Info */}
                 <div className="p-5">
                   <div className="flex items-center gap-2 text-[#737520] text-xl mb-2">
-                    {product.icon}
+                  
                   </div>
                   <h3 className="text-lg font-bold text-[#1A1A1A] mb-2 group-hover:text-[#737520] transition-colors line-clamp-1">
                     {product.name}
@@ -375,7 +374,7 @@ const Products = () => {
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
                   <div className="flex items-center gap-3">
                     <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center text-white text-2xl">
-                      {selectedProduct.icon}
+                      
                     </div>
                     <div>
                       <h2 className="text-2xl font-bold text-white">{selectedProduct.name}</h2>

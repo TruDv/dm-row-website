@@ -1,8 +1,7 @@
 import { motion } from 'framer-motion';
 import { 
-  FaArrowRight, FaCheckCircle, FaTools, FaSnowflake,
-  FaBolt, FaWrench, FaShieldAlt, FaClock,
-  FaTrophy, FaUsers, FaBuilding
+  FaCheckCircle, FaTools, FaSnowflake,
+  FaBolt, FaShieldAlt, 
 } from 'react-icons/fa';
 
 const Engineering = () => {

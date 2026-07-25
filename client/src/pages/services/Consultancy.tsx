@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { 
-  FaArrowRight, FaCheckCircle, FaChalkboardTeacher, 
+ FaCheckCircle, FaChalkboardTeacher, 
   FaUsers, FaShieldAlt, FaChartLine, FaLightbulb,
   FaHandshake, FaTrophy
 } from 'react-icons/fa';

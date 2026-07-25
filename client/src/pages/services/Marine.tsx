@@ -1,8 +1,7 @@
 import { motion } from 'framer-motion';
 import { 
-  FaArrowRight, FaCheckCircle, FaShip, FaAnchor,
-  FaWater, FaOilCan, FaTools, FaShieldAlt,
-  FaClock, FaUsers, FaTrophy
+  FaCheckCircle, FaShip,
+  FaWater, FaOilCan, FaTools,
 } from 'react-icons/fa';
 
 const Marine = () => {

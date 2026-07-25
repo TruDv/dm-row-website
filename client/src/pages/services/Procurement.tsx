@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import { 
   FaArrowRight, FaCheckCircle, FaGlobe, FaHandshake, 
-  FaShippingFast, FaChartLine, FaClock, FaShieldAlt,
-  FaBuilding, FaUsers, FaTruck
+  FaShippingFast, FaShieldAlt,
+
 } from 'react-icons/fa';
 
 const Procurement = () => {
