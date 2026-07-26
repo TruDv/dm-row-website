@@ -12,15 +12,24 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-[#737520] rounded-lg flex items-center justify-center font-bold text-white text-xl">
-                DM
+            <Link to="/" className="flex items-center gap-2 mb-4">
+              <div className="w-34 h-8 overflow-hidden rounded-lg flex-shrink-0">
+                <img 
+                  src="/images/logo.png" 
+                  alt="DM-ROW Logo"
+                  className="w-full h-full object-contain"
+                  onError={(e) => {
+                    e.currentTarget.style.display = 'none';
+                    const parent = e.currentTarget.parentElement;
+                    const fallback = document.createElement('div');
+                    fallback.className = 'w-10 h-10 bg-[#737520] rounded-lg flex items-center justify-center font-bold text-white text-xl';
+                    fallback.textContent = 'DM';
+                    parent?.appendChild(fallback);
+                  }}
+                />
               </div>
-              <span className="text-xl font-bold text-[#1A1A1A]">
-                DM-<span className="text-[#737520]">ROW</span>
-              </span>
-            </div>
-            <p className="text-gray-600 text-sm leading-relaxed">
+            </Link>
+            <p className="text-gray-600 text-sm leading-relaxed mt-2">
               Delivering quality procurement, engineering, marine, and consultancy services to the oil and gas industry.
             </p>
           </div>
