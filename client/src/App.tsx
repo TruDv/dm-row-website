@@ -6,6 +6,7 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Products from './pages/Products';
 import Contact from './pages/Contact';
+import Sustainability from './pages/Sustainability';
 // Service detail pages
 import Procurement from './pages/services/Procurement';
 import Marine from './pages/services/Marine';
@@ -26,6 +27,7 @@ function App() {
           <Route path="/services/engineering" element={<Engineering />} />
           <Route path="/services/consultancy" element={<Consultancy />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/sustainability" element={<Sustainability />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Layout>

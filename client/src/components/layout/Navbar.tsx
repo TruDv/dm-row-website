@@ -11,13 +11,14 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const location = useLocation();
 
-  const navLinks: NavLink[] = [
-    { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
-    { name: 'Services', href: '/services' },
-    { name: 'Products', href: '/products' },
-    { name: 'Contact', href: '/contact' },
-  ];
+const navLinks: NavLink[] = [
+  { name: 'Home', href: '/' },
+  { name: 'About', href: '/about' },
+  { name: 'Services', href: '/services' },
+  { name: 'Products', href: '/products' },
+  { name: 'Sustainability', href: '/sustainability' },
+  { name: 'Contact', href: '/contact' },
+];
 
   return (
     <nav className="fixed w-full z-50 bg-white border-b border-gray-200 shadow-sm">

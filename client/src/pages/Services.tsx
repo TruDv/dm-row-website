@@ -90,7 +90,7 @@ const Services = () => {
   return (
     <main className="bg-white">
       {/* Hero Section */}
-      <section className="relative h-[45vh] min-h-[320px] flex items-center overflow-hidden pt-20">
+      <section className="relative h-[45vh] min-h-[350px] flex items-center overflow-hidden pt-20">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-[#737520]/60 to-black/80"></div>
